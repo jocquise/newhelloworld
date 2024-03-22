@@ -1,0 +1,12 @@
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/.gitattributes b/.gitattributes[m
+[1mindex dfe0770..68d33ed 100644[m
+[1m--- a/.gitattributes[m
+[1m+++ b/.gitattributes[m
+[36m@@ -1,2 +1,4 @@[m
+ # Auto detect text files and perform LF normalization[m
+[31m-* text=auto[m
+[32m+[m[32mmkdir hello-world[m[41m [m
+[32m+[m[32mcd hello-world[m
+[32m+[m[32mgit init[m
+\ No newline at end of file[m
